@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific image files
+# 水印相关图片
+watermarked_image_*.png
+extracted_watermark_*.png
+generated_watermark_*.png
+
+# 其他图片文件
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+
+# 保留示例图片
+!example_images/*.png
+!example_images/*.jpg
+!example_images/*.jpeg
+!example_images/*.bmp
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
